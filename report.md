@@ -178,31 +178,37 @@ S队虽然有一期生在里面，但是也有2-7期生在里面，所以平均�
 <tr>
 <th>Team</th>
 <th>姓名</th>
+<th>出生日期</th>
 <th>年龄</th>
 </tr>
 <tr>
 <td>Team SII</td>
 <td>徐晨辰</td>
+<td>1990-06-20</td>
 <td>26</td>
 </tr>
 <tr>
 <td>Team NII</td>
 <td>曾艳芬</td>
+<td>1991-01-30</td>
 <td>25</td>
 </tr>
 <tr>
 <td>Team HII</td>
 <td>徐晗</td>
+<td>1993-01-16</td>
 <td>23</td>
 </tr>
 <tr>
 <td>Team X</td>
 <td>王晓佳</td>
+<td>1993-05-31</td>
 <td>23</td>
 </tr>
 <tr>
 <td>Team XII</td>
 <td>张怡</td>
+<td>1994-06-22</td>
 <td>22</td>
 </tr>
 </table>
@@ -211,31 +217,37 @@ S队虽然有一期生在里面，但是也有2-7期生在里面，所以平均�
 <tr>
 <th>Team</th>
 <th>姓名</th>
+<th>出生日期</th>
 <th>年龄</th>
 </tr>
 <tr>
 <td>Team SII</td>
 <td>赵韩倩</td>
+<td>2000-07-13</td>
 <td>16</td>
 </tr>
 <tr>
 <td>Team NII</td>
 <td>徐真</td>
+<td>2001-03-23</td>
 <td>15</td>
 </tr>
 <tr>
 <td>Team HII</td>
 <td>孙珍妮</td>
+<td>2000-05-05</td>
 <td>16</td>
 </tr>
 <tr>
 <td>Team X</td>
 <td>杨冰怡</td>
+<td>2000-07-26</td>
 <td>16</td>
 </tr>
 <tr>
 <td>Team XII</td>
 <td>蒋舒婷</td>
+<td>2002-06-18</td>
 <td>14</td>
 </tr>
 </table>
