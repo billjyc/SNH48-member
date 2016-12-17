@@ -8,7 +8,8 @@
 首先在命令行中输入
 ```Bash
 scrapy startproject tutorial
-```创建一个名叫“tutorial”的项目
+```
+创建一个名叫“tutorial”的项目
 ####选择网站
 所有成员的基本信息都列在http://www.snh48.com/member_list.php 中，点击每个成员的图片可以进入到该成员的详细资料页面。
 ####定义数据
