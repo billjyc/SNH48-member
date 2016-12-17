@@ -22,6 +22,7 @@ scrapy startproject tutorial
 * 血型
 * 所属队伍（目前SNH48本部一共有5支队伍，分别为Team SII, Team NII, Team HII, Team X, Team XII）
 * 批次（SNH48目前共有七期团员）
+* 生日（这个官网上只给出了月和日（毕竟女生的年龄是隐私……），所以这个只能手动扒了）
 * 入团时间
 * 个人详细信息页面链接
 * 公式照链接
@@ -39,3 +40,15 @@ pipeline的代码在[这里](https://github.com/billjyc/SNH48-member/blob/master
 scrapy crawl snh48
 ```
 即可得到结果
+
+
+###结果分析
+* 经过爬取，数据库中共有109条记录，说明SNH 48本部共有109位成员（包含被标记为“暂休”的几位成员）
+* 各队的平均身高如下：
+|  Team         | 平均身高（cm） | 
+| ------------- |:-------------:| 
+| Team SII      | 165.64        | 
+| Team NII      | 163.85        | 
+| Team HII      | 165.33        | 
+| Team X        | 165.56        |
+| Team XII      | 163.00        |
