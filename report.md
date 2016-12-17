@@ -52,11 +52,11 @@ scrapy crawl snh48
 </tr>
 <tr>
 <td>Team SII</td>
-<td>163.85</td>
+<td>165.64</td>
 </tr>
 <tr>
 <td>Team NII</td>
-<td>165.64</td>
+<td>163.85</td>
 </tr>
 <tr>
 <td>Team HII</td>
@@ -71,5 +71,71 @@ scrapy crawl snh48
 <td>163.00</td>
 </tr>
 </table>
-<br>
 果然，team SII的身高排名毫无悬念地排名第一，这跟大家口中“人高马大”的前辈的印象较符合；而N队和XII队身高较矮。
+* 各团的身高极值
+  * 各团最高
+  <table>
+<tr>
+<th>Team</th>
+<th>姓名</th>
+<th>身高(cm)</th>
+</tr>
+<tr>
+<td>Team SII</td>
+<td>吴哲晗</td>
+<td>173</td>
+</tr>
+<tr>
+<td>Team NII</td>
+<td>江真仪</td>
+<td>170</td>
+</tr>
+<tr>
+<td>Team HII</td>
+<td>刘佩鑫</td>
+<td>170</td>
+</tr>
+<tr>
+<td>Team X</td>
+<td>汪佳翎</td>
+<td>172</td>
+</tr>
+<tr>
+<td>Team XII</td>
+<td>陈韫灵</td>
+<td>173</td>
+</tr>
+</table>
+  * 各团最矮
+    <table>
+<tr>
+<th>Team</th>
+<th>姓名</th>
+<th>身高(cm)</th>
+</tr>
+<tr>
+<td>Team SII</td>
+<td>袁雨桢</td>
+<td>160</td>
+</tr>
+<tr>
+<td>Team NII</td>
+<td>罗兰</td>
+<td>152</td>
+</tr>
+<tr>
+<td>Team HII</td>
+<td>杨惠婷，王露皎</td>
+<td>160</td>
+</tr>
+<tr>
+<td>Team X</td>
+<td>杨韫玉</td>
+<td>158</td>
+</tr>
+<tr>
+<td>Team XII</td>
+<td>刘增艳</td>
+<td>157</td>
+</tr>
+</table>
