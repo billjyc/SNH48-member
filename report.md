@@ -36,4 +36,5 @@ pipeline的代码在这里
 在命令行中输入
 ```Bash
 scrapy crawl snh48
-```即可得到结果
+```
+即可得到结果
