@@ -27,6 +27,7 @@ scrapy startproject tutorial
 * 公式照链接
 * 爱好
 * 简介
+
 Item的代码在[这里](https://github.com/billjyc/SNH48-member/blob/master/tutorial/items.py)
 ####编写抓取数据的spider
 [spider代码](https://github.com/billjyc/SNH48-member/blob/master/tutorial/spiders/dmoz_spider.py)
