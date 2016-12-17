@@ -32,7 +32,7 @@ Item的代码在[这里](https://github.com/billjyc/SNH48-member/blob/master/tut
 ####编写抓取数据的spider
 [spider代码](https://github.com/billjyc/SNH48-member/blob/master/tutorial/spiders/dmoz_spider.py)
 ####与MySQL的交互
-pipeline的代码在这里
+pipeline的代码在[这里](https://github.com/billjyc/SNH48-member/blob/master/tutorial/pipelines.py)
 ####执行
 在命令行中输入
 ```Bash
