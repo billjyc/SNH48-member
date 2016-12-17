@@ -50,12 +50,26 @@ scrapy crawl snh48
 <th>Team</th>
 <th>平均身高(cm)</th>
 </tr>
-<tr></tr>
+<tr>
+<td>Team SII</td>
+<td>163.85</td>
+</tr>
+<tr>
+<td>Team NII</td>
+<td>165.64</td>
+</tr>
+<tr>
+<td>Team HII</td>
+<td>165.33</td>
+</tr>
+<tr>
+<td>Team X</td>
+<td>165.56</td>
+</tr>
+<tr>
+<td>Team XII</td>
+<td>163.00</td>
+</tr>
 </table>
-|  Team         | 平均身高（cm） | <br>
-| ------------- |:-------------:| <br>
-| Team SII      | 165.64        | <br>
-| Team NII      | 163.85        | <br>
-| Team HII      | 165.33        | <br>
-| Team X        | 165.56        | <br>
-| Team XII      | 163.00        | <br>
+<br>
+果然，team SII的身高排名毫无悬念地排名第一，这跟大家口中“人高马大”的前辈的印象较符合；而N队和XII队身高较矮。
