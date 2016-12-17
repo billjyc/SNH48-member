@@ -141,3 +141,100 @@ S队最高的居然是五折吴哲晗？但是从最近的公演来看，徐子�
 <td>157</td>
 </tr>
 </table>
+
+余震居然是S队里最矮的，真的没看出来……
+* 平均年龄
+<table>
+<tr>
+<th>Team</th>
+<th>平均年龄</th>
+</tr>
+<tr>
+<td>Team SII</td>
+<td>21.0</td>
+</tr>
+<tr>
+<td>Team NII</td>
+<td>21.3</td>
+</tr>
+<tr>
+<td>Team HII</td>
+<td>19.9</td>
+</tr>
+<tr>
+<td>Team X</td>
+<td>19.0</td>
+</tr>
+<tr>
+<td>Team XII</td>
+<td>17.8</td>
+</tr>
+</table>
+S队虽然有一期生在里面，但是也有2-7期生在里面，所以平均年龄不是最大的；但是N队依然是以二期生为主的队伍，尤其是队中几位top成员年龄已经偏大，队伍老化问题有些严重，希望队中的年轻队员可以早日扛起大旗。
+
+ * 各团最老
+ <table>
+<tr>
+<th>Team</th>
+<th>姓名</th>
+<th>年龄</th>
+</tr>
+<tr>
+<td>Team SII</td>
+<td>徐晨辰</td>
+<td>26</td>
+</tr>
+<tr>
+<td>Team NII</td>
+<td>曾艳芬</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Team HII</td>
+<td>徐晗</td>
+<td>23</td>
+</tr>
+<tr>
+<td>Team X</td>
+<td>王晓佳</td>
+<td>23</td>
+</tr>
+<tr>
+<td>Team XII</td>
+<td>张怡</td>
+<td>22</td>
+</tr>
+</table>
+ * 各团最年轻
+  <table>
+<tr>
+<th>Team</th>
+<th>姓名</th>
+<th>年龄</th>
+</tr>
+<tr>
+<td>Team SII</td>
+<td>赵韩倩</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Team NII</td>
+<td>徐真</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Team HII</td>
+<td>孙珍妮</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Team X</td>
+<td>杨冰怡</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Team XII</td>
+<td>蒋舒婷</td>
+<td>14</td>
+</tr>
+</table>
