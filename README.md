@@ -5,4 +5,4 @@
 ```Bash
 scrapy spider snh48
 ```
-即可
+来源：[snh48.com](http://www.snh48.com)
