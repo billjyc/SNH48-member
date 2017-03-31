@@ -82,7 +82,7 @@ COOKIES_ENABLED = False
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    #'tutorial.pipelines.MemberJsonPipeline': 100
+    # 'tutorial.pipelines.MemberJsonPipeline': 100
     'tutorial.pipelines.MySQLStorePipeline': 500
 }
 

@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import sys
+
+from tutorial.helper import Helper
+
 reload(sys)
 
 sys.setdefaultencoding("utf-8")
@@ -18,6 +21,8 @@ class MemberSpider(Spider):
     allowed_domains = ["snh48.com"]
     start_urls = ["http://www.snh48.com/member_list.php"]
 
+    helper = Helper()
+
     def parse(self, response):
         sel = Selector(response)
         member_links = sel.xpath('//div[@class="member_h zx3"]')
@@ -25,8 +30,9 @@ class MemberSpider(Spider):
 
             member = MemberItem()
             name = member_link.xpath('./div[@class="mh_w1"]/text()').extract()
-
+            english_name = member_link.xpath('./div[@class="mh_w2"]/text()').extract()
             member['name'] = name[0]
+            member['english_name'] = english_name[0]
             member['link'] = member_link.xpath('./div[1]/a/@href').extract()
             strs = member['link'][0].split('=')
             member['id'] = strs[1]
@@ -43,13 +49,19 @@ class MemberSpider(Spider):
 
         infos = sel.xpath('//div[@class="mem_w"]/ul')
         member['nick_name'] = infos.xpath('./li[2]/text()').extract()[0]
+        member['speciality'] = infos.xpath('./li[4]/text()').extract()[0]
         member['height'] = int(infos.xpath('./li[6]/text()').extract()[0])
         member['hobby'] = infos.xpath('./li[8]/text()').extract()[0]
         member['blood_type'] = infos.xpath('./li[10]/text()').extract()[0]
         member['join_time'] = infos.xpath('./li[12]/text()').extract()[0]
         member['join_time'] = datetime.datetime.strptime(member['join_time'], "%Y-%m-%d").date()
+
         member['batch'] = infos.xpath('./li[16]/text()').extract()[0]
-        member['team'] = infos.xpath('./li[20]/text()').extract()[0]
+        member['constellation'] = infos.xpath('./li[18]/text()').extract()[0]
+        member['team'] = self.helper.process_item_team(infos.xpath('./li[20]/text()').extract()[0])
+        # member['team'] = infos.xpath('./li[20]/text()').extract()[0]
+        member['birth_place'] = infos.xpath('./li[22]/text()').extract()[0]
+        member['agency'] = infos.xpath('./li[24]/text()').extract()[0]
         member['description'] = infos.xpath('./li[28]/text()').extract()
 
         # Here we must return the member Item, or the result would not be passed to pipeline

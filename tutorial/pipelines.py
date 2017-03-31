@@ -61,6 +61,19 @@ class MySQLStorePipeline(object):
         #print type(item['height']), ' ', type(item['join_time'])
         print len(item['description'])
         split_str = '\n'
-        conn.execute("""insert into memberinfo (`id`, `name`, `nick_name`, `height`, `blood_type`, `team`, `batch`, `join_time`, `link`, `image_link`, `hobby`, `description`)
-                        values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""",
-                     (item['id'], item['name'], item['nick_name'], item['height'], item['blood_type'], item['team'], item['batch'], item['join_time'], item['link'], item['image_link'], item['hobby'], split_str.join(item['description'])))
+        conn.execute(""" update memberinfo
+            SET `name`=%s, `nick_name`=%s, `height`=%s, `blood_type`=%s,`team`=%s, `batch`=%s, `english_name`=%s, `join_time`=%s, `link`=%s,`image_link`=%s, `hobby`=%s, `description`=%s, `constellation`=%s,`birth_place`=%s, `agency`=%s, `speciality`=%s WHERE `id`=%s
+            """,
+                     (item['name'], item['nick_name'], item['height'], item['blood_type'],
+                      item['team'], item['batch'], item['english_name'], item['join_time'],
+                      item['link'], item['image_link'], item['hobby'], split_str.join(item['description']),
+                      item['constellation'], item['birth_place'], item['agency'], item['speciality'], item['id'])
+                     )
+        # conn.execute("""insert into memberinfo (`id`, `name`, `nick_name`,
+        # `height`, `blood_type`, `team`, `batch`,
+        # `join_time`, `link`, `image_link`, `hobby`, `description`)
+        #                 values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""",
+        #              (item['id'], item['name'], item['nick_name'],
+        #               item['height'], item['blood_type'], item['team'],
+        #               item['batch'], item['join_time'], item['link'],
+        #               item['image_link'], item['hobby'], split_str.join(item['description'])))
